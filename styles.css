@@ -471,8 +471,8 @@ strong {
 }
 
 /* Prevent blue links on mobile (iOS auto-detection) */
-a[href^="tel"],
-a[href^="mailto"] {
+a[href^="tel"]:not(.btn),
+a[href^="mailto"]:not(.btn) {
     color: inherit;
     text-decoration: none;
 }
